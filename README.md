@@ -3,7 +3,7 @@
  
  特点：简单、高效 （在最普通的机器环境压测QPS最高可以达到2.5w/s）
 
- 博客地址：[https://www.jianshu.com/p/3e049008204e](https://www.jianshu.com/p/3e049008204e)
+ 博客地址：[https://www.jianshu.com/p/cb5573b005ba](https://www.jianshu.com/p/cb5573b005ba)
 
 ### 设计
 ![ ](https://github.com/yanchaoguo/log-server/blob/master/img/c.png)
@@ -47,7 +47,7 @@ kafka=hadoop006:9092,hadoop007:9092,hadoop008:9092
 
 ### 快速开发
 **1、目录说明**
-![ ](https://github.com/yanchaoguo/log-server/blob/master/img/a.png)
+![ ](https://github.com/eqxiu/log-server/blob/master/img/a.png)
 
 
 **2、在action目录下新增业务处理类，比如创建FastPushAction并实现Action接口的doAction方法；该类不对日志进行处理，没有太多业务逻辑，负责将接收到的日志发送到kafka ，可以作为demo参考，具体实现如下**
@@ -160,4 +160,4 @@ Time per request:       20.984 [ms] (mean)
 
 ```
  
-![ ](https://github.com/yanchaoguo/log-server/blob/master/img/b.png)
+![ ](https://github.com/eqxiu/log-server/blob/master/img/b.png)
